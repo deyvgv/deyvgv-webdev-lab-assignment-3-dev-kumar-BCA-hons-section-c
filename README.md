@@ -17,12 +17,12 @@ Hi! This is my personal portfolio website made for Lab Assignment 3 at K.R. Mang
 Just open `index.html` in any web browser. Make sure `style.css` is in the same folder.
 
 ## My Details 
-course name :- Foundations of web development
-Course code :- ETCCWD102
-Programme :- bca (hons) AI/DS
-faculty :- Vishal Kumar
-Semester :- 1st
-Session :- 2025 - 26
-Name :- Dev Kumar
-Roll no :- 2501201022
-Section :- c
+- course name :- Foundations of web development
+- Course code :- ETCCWD102
+- Programme :- bca (hons) AI/DS
+- faculty :- Vishal Kumar
+- Semester :- 1st
+- Session :- 2025 - 26
+- Name :- Dev Kumar
+- Roll no :- 2501201022
+- Section :- c
