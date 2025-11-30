@@ -10,7 +10,7 @@ Hi! This is my personal portfolio website made for Lab Assignment 3 at K.R. Mang
 - Works on desktop and mobile
 
 ## Tech Used
-- HTML, CSS, JavaScript  
+- HTML, CSS
 - Google Fonts (Poppins)
 
 ## How to Open
