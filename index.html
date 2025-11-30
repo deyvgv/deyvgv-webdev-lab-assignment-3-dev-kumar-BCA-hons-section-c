@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header fade-in">
+        <div class="logo">Dev<span class="dot">.</span></div>
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero fade-in">
+        <div class="hero-text">
+            <h1 class="intro-title">Hey, I'm Dev</h1>
+            <h2 class="role">
+                A <span class="animated-role">Web Developer</span>
+            </h2>
+            <p class="hero-desc">
+                I enjoy building clean interfaces and solving problems with code.
+                This site shows some of my experiments and practice work.
+            </p>
+            <a href="#projects" class="cta-btn">View My Work</a>
+        </div>
+
+        <div class="hero-img">
+            <img src="profile.png" alt="profile">
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about-section fade-in">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-text">
+            I am a student at K.R. Mangalam University. I like learning front-end development, design, and building small projects. 
+            I learn best by doing things. This website is my Lab Assignment 3 (I love cats).
+        </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills fade-in">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">Git</div>
+            <div class="skill-card">Responsive Design</div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects-section fade-in">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Weather App</h3>
+                <p>A clean and fast weather lookup tool using a public API.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Task Manager</h3>
+                <p>A simple to-do app with localStorage support for saving tasks.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio V1</h3>
+                <p>My first attempt at a personal website. Lots of room for improvement.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section fade-in">
+        <h2 class="section-title">Contact Me</h2>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer fade-in">
+        <p>© 2025 Dev — Built with curiosity.</p>
+    </footer>
+
+</body>
+</html>
